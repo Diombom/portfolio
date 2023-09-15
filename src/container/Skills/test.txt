@@ -1,0 +1,21 @@
+<>
+                        <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5 }}
+                        className="app__skills-exp-work app__flex"
+                        data-tip
+                        data-for={item.name}
+                        key={item.name}
+                        >
+                        <h4 className="bold-text">{item.name}</h4>
+                        <p className="p-text">{item.company}</p>
+                        </motion.div>
+                        <ReactTooltip
+                        id={item.name}
+                        effect="solid"
+                        arrowColor="fff"
+                        className="skills-tooltip"
+                        >
+                        {item.desc}
+                        </ReactTooltip>
+                    </>
