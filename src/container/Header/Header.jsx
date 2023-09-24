@@ -25,7 +25,7 @@ const lsqb = ']';
 const Header = () => {
 
   const [animateText] = useTypewriter({
-    words: ['graphic design', 'student', 'music'],
+    words: ['graphic design', 'medical student', 'music', 'seo enthusiast'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 60,
@@ -64,8 +64,8 @@ const Header = () => {
             </div>
             <p className="body">
               <p><span className="const">const</span> <span className="const-name">fullstackWebDeveloper</span> = {rcub}</p>
-              <p className="tab"><span className="object-item">frontend</span>  : {rsqb}'html5', 'css3', 'reactjs', 'some other thing', 'another', 'one'{lsqb},</p>
-              <p className="tab"><span className="object-item">backend</span>  : {rsqb}'php', 'mysql', 'nodejs', 'mongodb'{lsqb}</p>
+              <p className="tab"><span className="object-item">frontend</span>  : {rsqb}'html5', 'css3', 'reactjs', 'bootstrap', 'jquery', 'tailwindcss'{lsqb},</p>
+              <p className="tab"><span className="object-item">backend</span>  : {rsqb}'mysql', 'nodejs', 'mongodb', 'php'{lsqb}</p>
               <p className="tab"><span className="object-item">others</span>  : <span className="typewriter"> {animateText} </span> <span className="indicator"></span></p>
               <p>{lcub}</p>              
             </p>
